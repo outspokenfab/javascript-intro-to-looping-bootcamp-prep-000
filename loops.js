@@ -44,9 +44,11 @@ function whileLoop(n){
 
 
 function doWhileLoop(intValue){
+
   do{
     console.log("I run once regardless.")
-  } while (incrementVariable() < intValue);
+  } while (incrementVariable() <= intValue);
+
 }
 
 let i = 0;
@@ -56,7 +58,6 @@ function incrementVariable() {
   return i;
 }
  
- doWhileLoop(10);
 
 
 
